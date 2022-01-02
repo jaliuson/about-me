@@ -1,0 +1,14 @@
+.b-card-wrap {
+    width: 85%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
+    padding: 3px;
+    border-radius: 20px;
+  }
+  
+.b-card{    
+    background-color: #222222;
+    border-radius: 18px;
+    padding: 2rem;
+}

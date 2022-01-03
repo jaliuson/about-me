@@ -1,0 +1,38 @@
+.header-panel-wrap{
+    width: 80%;
+    padding: 1.5rem;
+    position: relative;
+    background: linear-gradient(to right, rgb(11, 165, 236), rgb(60, 226, 96));
+    padding: 3px;
+    border-radius: 20px;
+  }
+  
+.header-panel{    
+    min-height: 200px;
+    background-color: #1f242e;
+    border-radius: 18px;
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.gradient-text-panel {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(to right, rgb(11, 165, 236), rgb(60, 226, 96));
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}

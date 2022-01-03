@@ -1,5 +1,5 @@
 .b-card-wrap {
-    width: 85%;
+    width: 80%;
     padding: 1rem;
     position: relative;
     background: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
@@ -8,7 +8,79 @@
   }
   
 .b-card{    
-    background-color: #222222;
+    min-height: 70vh;
+    background-color: #1f242e;
     border-radius: 18px;
     padding: 2rem;
+    display: flex;
 }
+
+.headshot-wrapper{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.my-face{
+    width: 50%;
+    border: 3px solid white; 
+    border-radius: 10px
+}
+
+.left-side{
+    width: 50%;
+    align-items: left;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-side{
+    width: 50%;
+    align-items: right;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links-array{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10vmin;
+}
+
+.ivey-insig{
+    width: 30vmin;
+}
+
+h1{
+    color: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
+    font-size: calc(25px + 10vmin);
+    margin: 2vmin;
+    margin-top: 0px;
+}
+
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }

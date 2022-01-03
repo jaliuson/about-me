@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.c95fae42.css",
-    "main.js": "/about-me/static/js/main.e63af4e6.js",
+    "main.css": "/about-me/static/css/main.174c8768.css",
+    "main.js": "/about-me/static/js/main.0f1d160b.js",
     "static/media/lowpoly.png": "/about-me/static/media/lowpoly.7284415e6a3a80804587.png",
     "static/media/Headshot.png": "/about-me/static/media/Headshot.860c3b9eb26cdd8d1bc6.png",
     "static/media/email-logo.png": "/about-me/static/media/email-logo.d0e85d7c4434d844642e.png",
@@ -10,11 +10,11 @@
     "static/media/github-logo.png": "/about-me/static/media/github-logo.f8a907cb80af26ebedfc.png",
     "static/media/linkedin-logo.png": "/about-me/static/media/linkedin-logo.6a027de83f691e4716f3.png",
     "index.html": "/about-me/index.html",
-    "main.c95fae42.css.map": "/about-me/static/css/main.c95fae42.css.map",
-    "main.e63af4e6.js.map": "/about-me/static/js/main.e63af4e6.js.map"
+    "main.174c8768.css.map": "/about-me/static/css/main.174c8768.css.map",
+    "main.0f1d160b.js.map": "/about-me/static/js/main.0f1d160b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c95fae42.css",
-    "static/js/main.e63af4e6.js"
+    "static/css/main.174c8768.css",
+    "static/js/main.0f1d160b.js"
   ]
 }

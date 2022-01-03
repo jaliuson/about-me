@@ -18,10 +18,18 @@ class BusinessCard extends Component{
                             <h3>4th year Software Engineering and Ivey HBA student @ Western University</h3>
                         </div>
                         <div className="links-array">
-                            <img className="logo" src={linkedin} href="https://www.linkedin.com/in/jason--liu/" alt="https://www.linkedin.com/in/jason--liu/"/>
-                            <img className="logo" src={github} href="https://github.com/jaliuson" alt="https://github.com/jaliuson"/>
-                            <img className="logo" src={email} href="jliu.hba2022@ivey.ca" alt="jliu.hba2023@ivey.ca"/>
-                            <img className="logo" src={instagram} href="https://www.instagram.com/jaliuson_/" alt="Instagram Coming Soon"/>
+                            <a href="https://www.linkedin.com/in/jason--liu/" target="_blank">
+                                <img className="logo" src={linkedin} alt="https://www.linkedin.com/in/jason--liu/"/>
+                            </a>
+                            <a href="https://github.com/jaliuson" target="_blank">
+                                <img className="logo" src={github} alt="https://github.com/jaliuson"/>
+                            </a>
+                            <a href="jliu.hba2022@ivey.ca" target="_blank">
+                                <img className="logo" src={email} alt="jliu.hba2023@ivey.ca"/>
+                            </a>
+                            <a href="https://www.instagram.com/jaliuson_/" target="_blank">
+                                <img className="logo" src={instagram} alt="Instagram Coming Soon"/>
+                            </a>
                         </div>
                     </div>
                     <div className="right-side">

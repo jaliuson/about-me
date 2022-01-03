@@ -1,6 +1,6 @@
 .b-card-wrap {
     width: 80%;
-    padding: 1rem;
+    padding: 1.5rem;
     position: relative;
     background: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
     padding: 3px;
@@ -11,7 +11,7 @@
     min-height: 70vh;
     background-color: #1f242e;
     border-radius: 18px;
-    padding: 2rem;
+    padding: 3.5rem;
     display: flex;
 }
 
@@ -46,13 +46,14 @@
 }
 
 .links-array{
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .logo{
-    width: 10vmin;
+    height: calc(10vmin);
 }
 
 .ivey-insig{
@@ -60,7 +61,7 @@
 }
 
 h1{
-    color: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
+    COLOR: white;
     font-size: calc(25px + 10vmin);
     margin: 2vmin;
     margin-top: 0px;

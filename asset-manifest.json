@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.467013a8.css",
+    "main.js": "/my-website/static/js/main.e62819aa.js",
+    "static/media/lowpoly.png": "/my-website/static/media/lowpoly.7284415e6a3a80804587.png",
+    "static/media/Headshot.png": "/my-website/static/media/Headshot.860c3b9eb26cdd8d1bc6.png",
+    "static/media/email-logo.png": "/my-website/static/media/email-logo.d0e85d7c4434d844642e.png",
+    "static/media/ivey-logo.png": "/my-website/static/media/ivey-logo.0c8ee16d018fc79d812a.png",
+    "static/media/instagram-logo.png": "/my-website/static/media/instagram-logo.df563dc737f5abf6ae01.png",
+    "static/media/github-logo.png": "/my-website/static/media/github-logo.f8a907cb80af26ebedfc.png",
+    "static/media/linkedin-logo.png": "/my-website/static/media/linkedin-logo.6a027de83f691e4716f3.png",
+    "index.html": "/my-website/index.html",
+    "main.467013a8.css.map": "/my-website/static/css/main.467013a8.css.map",
+    "main.e62819aa.js.map": "/my-website/static/js/main.e62819aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.467013a8.css",
+    "static/js/main.e62819aa.js"
+  ]
+}

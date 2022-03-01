@@ -28,6 +28,14 @@
   color: white;
 }
 
+.projects-div{
+  width: 100%;
+}
+
+.photos-div{
+  margin-top: 20rem;
+}
+
 .App-link {
   color: #61dafb;
 }

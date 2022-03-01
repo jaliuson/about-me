@@ -1,6 +1,7 @@
 import './App.css';
 import BusinessCard from './BusinessCard';
-import ProjectPanel from'./ProjectPanel'
+import ProjectPanel from'./ProjectPanel';
+import Photos from './PhotoCarousel';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       </header>
       <body className="App-body">
         <ProjectPanel></ProjectPanel>
+        
       </body>
     </div>
   );

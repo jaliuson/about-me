@@ -6,8 +6,7 @@ class ProjectPanel extends Component{
         return(
             <div className="header-panel-wrap">
                 <div className="header-panel">
-                    <h1 class="gradient-text-panel">Projects</h1>
-                    <p>My work will be here soon!</p>
+                    <h1 class="gradient-text-panel">Projects V2</h1>
                 </div>
             </div>
         )

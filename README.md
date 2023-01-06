@@ -1,11 +1,8 @@
-# About Me
-Welcome to my personal pages, this is the repository for my personal website.
-I build the website using React.js and have deployed to the gh-pages
+# About Me - Personal Website
+This repo is for my personal profile/potfolio website
+The project was built using react.js
 
-## Learn more about me at my personal website! 
-https://jaliuson.github.io/about-me/
-
-
-
+## Build Link
+See the build here: https://jaliuson.github.io/about-me/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

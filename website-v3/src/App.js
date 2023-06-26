@@ -1,5 +1,7 @@
 import './App.css';
+
 import BusinessCard from './BusinessCard';
+import ExperiencePanel from './ExperiencePanel'
 import ProjectPanel from'./ProjectPanel'
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
         <BusinessCard></BusinessCard>
       </header>
       <body className="App-body">
+        <ExperiencePanel></ExperiencePanel>
         <ProjectPanel></ProjectPanel>
       </body>
     </div>

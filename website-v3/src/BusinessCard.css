@@ -1,18 +1,20 @@
 .b-card-wrap {
-    width: 80%;
+    width: 70%;
     padding: 1.5rem;
     position: relative;
     background: linear-gradient(to right, rgb(255, 38, 0), rgb(255, 196, 0));
     padding: 3px;
     border-radius: 20px;
+    min-width: 600px;
   }
   
 .b-card{    
-    min-height: 70vh;
     background-color: #1f242e;
     border-radius: 18px;
     padding: 3.5rem;
     display: flex;
+
+    max-height: 800px;
 }
 
 .headshot-wrapper{
@@ -22,13 +24,14 @@
 }
 
 .my-face{
-    width: 50%;
+    margin: 1.5rem;
+    width: 80%;
     border: 3px solid white; 
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .left-side{
-    width: 50%;
+    width: 70%;
     align-items: left;
     text-align: left;
     display: flex;
@@ -37,12 +40,13 @@
 }
 
 .right-side{
-    width: 50%;
+    width: 30%;
     align-items: right;
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 .links-array{
@@ -50,21 +54,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 70%;
+
+}
+
+.logo-container {
+    width: 100%;
 }
 
 .logo{
-    height: calc(10vmin);
+    width: 65%;
 }
 
 .ivey-insig{
-    width: 30vmin;
-}
-
-h1{
-    COLOR: white;
-    font-size: calc(25px + 10vmin);
-    margin: 2vmin;
-    margin-top: 0px;
+    padding: 2rem;
+    width:60%;
 }
 
 .gradient-text {
@@ -84,4 +88,26 @@ h1{
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
+
+    font-size: 6vw;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: white;
+    font-size: 2vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 4px;
+    font-size: 1.1vw;
+}
+
+.subtitles {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

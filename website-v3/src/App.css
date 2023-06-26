@@ -16,6 +16,7 @@
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
+  margin-bottom: 100px;
 }
 
 .App-body {

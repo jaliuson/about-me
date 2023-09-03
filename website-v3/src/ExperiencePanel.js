@@ -12,31 +12,33 @@ import Triangle from './images/pointer.png';
 
 const jobInformation = [
     {
-        company: 'Amazon.com', jobTitle: 'Software Development Engineer',
+        company: 'Amazon.com', jobTitle: 'Software Development Engineer', team: 'Worldwide Mobile User Discovery and Navigation',
         description: 'Implemented a dynamic pipeline for content being used in mobile app navigation using React Native. This pipeline enabled internal stakeholders to make changes to content that could be realized by users within minutes instead of days' 
     },
     {
-        company: 'Hockeystick.co', jobTitle: 'Product Management Analyst',
+        company: 'Hockeystick.co', jobTitle: 'Product Management Analyst', team: 'Product Team',
         description: 'Optimized engagement and conversion of financers offering more than $100,000 by researching and implementing more effective match criteria in companies seeking funding. Collaborated with UI designers, software engineers and other porduct managers to efficiently push features' 
     },
     {
-        company: 'OSL Retail Services', jobTitle: 'Field Operations Technician',
+        company: 'OSL Retail Services', jobTitle: 'Bike Technician', team: 'Field Operations Team',
         description: 'Partnered with Walmart Canada to fulfill bike orders at 7 different locations across the Greater Toronto Area. Adapted to industry supply chain issues by streamlining processes during invesntory influxes and supporting adjacent contractors during shortages' 
     },
     {
-        company: 'Mountain Equipment Company', jobTitle: 'Sales Advisor',
+        company: 'Mountain Equipment Company', jobTitle: 'Sales Advisor', team: 'Bike Sales and Service',
         description: 'Informed and assisted customers with finding the products that best suit them based on their use cases and prefernces. As an uncomissioned advisor working with a (formerly) co-op busienss, this meant that I was always honest and genuine when finding the best value and fit for the customer' 
     }
 ]
 
 const ExperiencePanel = () => {
-    const [selected, setSelected] = useState(1);
+    const [selected, setSelected] = useState(0);
     const [jobTitle, setJobTitle] = useState(jobInformation[0].jobTitle);
+    const [team, setTeam] = useState(jobInformation[0].team);
     const [description, setDescription] = useState(jobInformation[0].description);
 
     const setDisplay = (number) => {
         setSelected(number)
         setJobTitle(jobInformation[number].jobTitle);
+        setTeam(jobInformation[number].team)
         setDescription(jobInformation[number].description);
     }
 
@@ -47,7 +49,7 @@ const ExperiencePanel = () => {
                 if(index == selected){
                     return(
                         <div className='pointer'>
-                            <img src={Triangle} style={{width: "10%"}}></img>
+                            <img src={Triangle} style={{width: "7%"}}></img>
                         </div>
                     )
                 }
@@ -67,7 +69,11 @@ const ExperiencePanel = () => {
     return (
         <div className="panel-wrap">
             <div className="panel">
-                <h1 className="gradient-text-panel">Experience</h1>
+                <h1 className="gradient-text-panel2">Experience</h1>
+
+                <div className='prompt'>
+                    <p style={{color: 'gray'}}> Select one below</p>
+                </div>
 
                 <div className="image-selector">
                     <img className="company-icon" src={AmazonLogo} alt="Image 1" onClick={() => setDisplay(0)}/>
@@ -79,8 +85,9 @@ const ExperiencePanel = () => {
                 {generatePointer()}
 
                 <div className='desc-box'>
-                    <h2>{jobTitle}</h2>
-                    <p>{description}</p>
+                    <h2>Position: {jobTitle}</h2>
+                    <h3 style={{color: 'grey'}}>Team: {team}</h3>
+                    <p>Description: {description}</p>
                 </div>
             </div>
         </div>

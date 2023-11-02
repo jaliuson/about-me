@@ -12,11 +12,11 @@ import Triangle from './images/pointer.png';
 
 const jobInformation = [
     {
-        company: 'Amazon.com', jobTitle: 'Software Development Engineer', team: 'Worldwide Mobile User Discovery and Navigation',
+        company: 'Amazon.com', jobTitle: 'Software Development Engineer', team: 'Worldwide Mobile Shopping App - Discovery and Navigation',
         description: 'Implemented a dynamic pipeline for content being used in mobile app navigation using React Native. This pipeline enabled internal stakeholders to make changes to content that could be realized by users within minutes instead of days' 
     },
     {
-        company: 'Hockeystick.co', jobTitle: 'Product Management Analyst', team: 'Product Team',
+        company: 'Hockeystick.co', jobTitle: 'Product Management Analyst', team: 'Dealflow Optimization and Loan Applications',
         description: 'Optimized engagement and conversion of financers offering more than $100,000 by researching and implementing more effective match criteria in companies seeking funding. Collaborated with UI designers, software engineers and other porduct managers to efficiently push features' 
     },
     {
@@ -24,7 +24,7 @@ const jobInformation = [
         description: 'Partnered with Walmart Canada to fulfill bike orders at 7 different locations across the Greater Toronto Area. Adapted to industry supply chain issues by streamlining processes during invesntory influxes and supporting adjacent contractors during shortages' 
     },
     {
-        company: 'Mountain Equipment Company', jobTitle: 'Sales Advisor', team: 'Bike Sales and Service',
+        company: 'Mountain Equipment Company', jobTitle: 'Sales Advisor & Bike Builder', team: 'Bike Sales and Service',
         description: 'Informed and assisted customers with finding the products that best suit them based on their use cases and prefernces. As an uncomissioned advisor working with a (formerly) co-op busienss, this meant that I was always honest and genuine when finding the best value and fit for the customer' 
     }
 ]
@@ -62,7 +62,6 @@ const ExperiencePanel = () => {
                 }
             })}
             </div>
-            
         )
     }
 
@@ -85,9 +84,9 @@ const ExperiencePanel = () => {
                 {generatePointer()}
 
                 <div className='desc-box'>
-                    <h2>Position: {jobTitle}</h2>
-                    <h3 style={{color: 'grey'}}>Team: {team}</h3>
-                    <p>Description: {description}</p>
+                    <h2>{jobTitle}</h2>
+                    <h3 style={{color: 'grey'}}>{team}</h3>
+                    <p>{description}</p>
                 </div>
             </div>
         </div>

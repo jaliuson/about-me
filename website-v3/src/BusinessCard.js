@@ -25,8 +25,9 @@ class BusinessCard extends Component{
                         <div>
                             <h1 class="gradient-text">Jason Liu</h1>
                             <div className="subtitles">
-                                <h2>Software engineer</h2>
-                                <p>Western University Software Engineering and Ivey HBA Graduate</p>
+                                <h2>Software Developer</h2>
+                                <div style={{height: '4px'}}></div>
+                                <p>BESc, Software Engineering & BA, Honours Business Administration from the University of Western Ontario</p>
                             </div>
                         </div>
                         <div style={{paddingTop: '20vmin'}}></div>

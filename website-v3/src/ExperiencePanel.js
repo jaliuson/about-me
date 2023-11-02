@@ -71,7 +71,7 @@ const ExperiencePanel = () => {
                 <h1 className="gradient-text-panel2">Experience</h1>
 
                 <div className='prompt'>
-                    <p style={{color: 'gray'}}> Select one below</p>
+                    <p style={{color: 'gray'}}>Select a company for details</p>
                 </div>
 
                 <div className="image-selector">

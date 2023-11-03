@@ -1,12 +1,10 @@
 .panel-wrap{
     width: 70%;
-    padding: 1.5rem;
     position: relative;
     background: linear-gradient(to right, rgb(232, 180, 11), rgb(60, 226, 96));
     padding: 3px;
     border-radius: 20px;
-
-    margin-bottom: 100px;
+    margin-bottom: 20vh;
   }
   
 .panel{    

@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/about-me/static/css/main.82824581.css",
-    "main.js": "/about-me/static/js/main.c297507a.js",
+    "main.css": "/about-me/static/css/main.0c2a5b23.css",
+    "main.js": "/about-me/static/js/main.3983dcc8.js",
     "static/media/lowpoly.png": "/about-me/static/media/lowpoly.7284415e6a3a80804587.png",
     "static/media/Headshot2.jpg": "/about-me/static/media/Headshot2.508abe320fe05384f2b4.jpg",
+    "static/media/mustangs.png": "/about-me/static/media/mustangs.36ae91daa47e6a6740c4.png",
     "static/media/MEC-logo.png": "/about-me/static/media/MEC-logo.9323e3c838aa330f80c9.png",
     "static/media/HS-logo.png": "/about-me/static/media/HS-logo.0435f948d33dd77005bd.png",
     "static/media/ivey-logo.png": "/about-me/static/media/ivey-logo.0c8ee16d018fc79d812a.png",
     "static/media/instagram-logo.png": "/about-me/static/media/instagram-logo.df563dc737f5abf6ae01.png",
     "static/media/email-logo.png": "/about-me/static/media/email-logo.cc351122cc9f86a808aa.png",
     "static/media/github-logo.png": "/about-me/static/media/github-logo.f8a907cb80af26ebedfc.png",
+    "static/media/speed-radar.png": "/about-me/static/media/speed-radar.d05c4a20d5bc3624da0e.png",
     "static/media/pointer.png": "/about-me/static/media/pointer.0cbb416d07b50b585d8e.png",
     "static/media/linkedin-logo.png": "/about-me/static/media/linkedin-logo.6a027de83f691e4716f3.png",
+    "static/media/Hs-logo.svg": "/about-me/static/media/Hs-logo.7bad96d2711549c1ce20.svg",
     "index.html": "/about-me/index.html",
-    "main.82824581.css.map": "/about-me/static/css/main.82824581.css.map",
-    "main.c297507a.js.map": "/about-me/static/js/main.c297507a.js.map"
+    "main.0c2a5b23.css.map": "/about-me/static/css/main.0c2a5b23.css.map",
+    "main.3983dcc8.js.map": "/about-me/static/js/main.3983dcc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.82824581.css",
-    "static/js/main.c297507a.js"
+    "static/css/main.0c2a5b23.css",
+    "static/js/main.3983dcc8.js"
   ]
 }
